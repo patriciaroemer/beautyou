@@ -1,0 +1,56 @@
+/*
+ Theme Name:   Astra Child
+ URI:    http://www.patriciaroemer.dk
+ Description:  Astra Child Theme
+ Author:       Patricia Rømer
+ Author URI:   http://patriciaroemer.dk
+ Template:     astra
+ Version:      1.0.0
+*/
+
+body{
+	font-family: "playfair-display";
+}
+
+p {
+	font-size: 16px;
+}
+
+.page-title{
+	color: black;
+}
+
+.ast-separate-container .ast-archive-description{
+	background-color: #dfc59e;
+}
+
+.site-title a {
+	font-style: italic;
+	font-size: 50px;
+}
+
+.main-header-menu > .menu-item > a {
+	font-size: 18px;
+	color: #dfc59e;
+}
+
+.ast-footer-overlay {
+	background: #000000;
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.nf-form-fields-required{
+	display: none;
+}
+
+input[type="button"]{
+	background-color:#dfc59e;
+}
+
+@media screen and (min-width: 48em){
+.site-content {
+    padding: 2.5em 0 0;
+}
+}
